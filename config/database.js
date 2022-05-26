@@ -1,4 +1,3 @@
-// strapi-api/config/database.js
 module.exports = ({ env }) => ({
   defaultConnection: "default",
   connection: {
@@ -7,7 +6,7 @@ module.exports = ({ env }) => ({
       host: env("DATABASE_HOST", "localhost"),
       port: env.int("DATABASE_PORT", 5432),
       database: env("DATABASE_NAME", "products"),
-      user: env("DATABASE_USERNAME", "postgres"),
+      user: env("DATABASE_USERNAME", "piyush"),
       password: env("DATABASE_PASSWORD", "piyush99"),
       schema: env("DATABASE_SCHEMA", "public"),
     },

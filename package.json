@@ -1,5 +1,5 @@
 {
-  "name": "my-shop",
+  "name": "api",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -9,20 +9,19 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-i18n": "4.1.9",
-    "@strapi/plugin-users-permissions": "4.1.9",
-    "@strapi/strapi": "4.1.9",
+    "@strapi/plugin-i18n": "4.1.11",
+    "@strapi/plugin-users-permissions": "4.1.11",
+    "@strapi/strapi": "4.1.11",
     "better-sqlite3": "7.4.6",
-    "pg": "^8.7.3",
-    "strapi-plugin-sitemap": "^2.0.8",
-    "yarn": "^1.22.18"
+    "pg": "^8.7.3"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "0416489c-6547-4a67-99a5-be07e8940e69"
+    "uuid": "97d7ab16-a998-476f-a099-f82312d12c24"
   },
   "engines": {
     "node": ">=12.x.x <=16.x.x",
